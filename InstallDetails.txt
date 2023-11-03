@@ -1,0 +1,49 @@
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+npm init -y  --> create package.json file
+
+for yaan-->
+sudo apt install curl -y
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt install yarn -y
+--above method for yaan not worked.
+try->https://www.bing.com/ck/a?!&&p=b104d1abc2672a22JmltdHM9MTY5NjU1MDQwMCZpZ3VpZD0wMTVkOGU5ZS04YmZlLTZkZDctMDQxZS05YzA3OGE0MTZjZGMmaW5zaWQ9NTE5Mg&ptn=3&hsh=3&fclid=015d8e9e-8bfe-6dd7-041e-9c078a416cdc&psq=yaan+package+management&u=a1aHR0cHM6Ly95YXJucGtnLmNvbS8&ntb=1
+
+go to the app directory
+npm add express
+npm add nodemon
+npm add dotenv
+npm add mongoose@6.12.0
+npm add bcryptjs
+npm add jsonwebtoken
+npm add web-cookie  <--
+npm add cors
+
+
+replace the package.json file with the updated file of package.json
+
+go to mongo site
+set the machine server ip in network settings
+connect mongo-
+copy the URI
+add to .env file
+
+
+
+temp- to login
+{
+  "username":"ThisalR",
+  "password":"abc123"
+}
+
+reg
+{
+  "username":"ThisalR",
+  "email":"th@imail.com",
+  "password":"abc123"
+}
+
+this is for client-
+npm add axios
